@@ -1,0 +1,29 @@
+.grid{
+height: 560px;
+width: 560px;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(8, 1fr);
+}
+#score{
+  text-align: center;
+}
+.grid > div{
+  background-size: cover;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 560px){
+  .grid{
+    width: 90vw;
+    height: 90vw;
+  }
+  
+}
+
+
+
+
