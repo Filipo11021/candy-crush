@@ -140,15 +140,6 @@ dragCandies()
        }
     }
 
-  /*   function moveDown(){
-      for(let i = 0; i < 64; i++){
-        if(squares[i].style.backgroundImage === ''){
-          let randomColor = Math.floor(Math.random() * candyColors.length)
-          squares[i].style.backgroundImage = candyColors[randomColor]
-        }
-      }
-    } */
-
   /* ---checking for matches--- */
 
   //check for row of three
